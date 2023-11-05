@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+html,
+body,
+main {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0000000c;
+}
+
+nav h1 {
+    margin: auto 0;
+}
+
+.nav_text {
+    display: flex;
+    margin: auto 0;
+}
+
+.nav_text a {
+    padding: 10px;
+}
+
+.nav_text_About {
+    background: #DB0000;
+    color: white;
+}
+
+.nav_number {
+    margin: auto 0;
+}
+
+.main_firstPage {
+    display: flex;
+    height: 100%;
+    margin-top: 10%;
+    width: fit-content;
+}
+
+.main_text {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    max-height: 70%;
+}
+
+.main_text h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 72px;
+    font-weight: 100;
+    line-height: 144px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.main_text button {
+    background: #DB0000;
+    border: 2px solid #DB0000;
+    padding: 8px 24px;
+    border-radius: 2px;
+    box-shadow: 0px 10px 40px 0px #d410104d;
+    color: white;
+    cursor: pointer;
+    margin-top: 5%;
+    width: fit-content;
+}
+
+.main_text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 60%;
+    margin-top: 7%;
+}
+
+.main_img {
+    width: fit-content;
+}
+
+.main_img1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main_img1 img {
+    box-shadow: 0px 6px 20px 0px #243C5E1A;
+    border-radius: 50%;
+    width: 30%;
+    margin-right: 10px;
+}
+
+.main_img1 p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: auto 0;
+
+}
+
+.centerImg {
+    padding-right: 100px;
+    margin: 8% 0;
+}
+
+.centerImg1 {
+    padding-left: 100px;
+}
+
+footer {
+    background: #DB0000;
+    padding: 5%;
+}
+
+.main_secondPage_text {
+    background-color: #DB0000;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-top: 5%;
+}
+
+.main_secondPage_about {
+    width: 70%;
+    margin: 5% auto;
+    text-align: justify;
+}
+
+
+.main_secondPage_img {
+    display: flex;
+    justify-content: center;
+}
+
+.main_thirdPage {
+    margin-top: 10%;
+}
+
+.main_thirdPage_text {
+    background-color: #DB0000;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.main_thirdPage_benefits {
+    margin-top: 5%;
+    padding: 0 10%;
+}
+
+.main_thirdPage_benefits_a {
+    text-align: center;
+    margin: 5% 0;
+}
+
+
+
+
+.a11 {
+    margin: auto 0;
+}
+
+.nav_text_About1 {
+    background: #DB0000;
+    color: white;
+}
+
+.search1 {
+    display: none
+}
+
+.none {
+    display: block;
+}
+
+
+
+
+
+
+
+
+form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+input {
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    border: 2px solid #DB0000;
+    border-radius: 5px;
+    outline: none;
+    background: #ffffff;
+    color: #9E9C9C;
+}
+
+.search button {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    background: #DB0000;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
+}
+
+
+.all_boxes{
+    margin-top: 5%;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-right: 40px;
+    border-right: 1px solid black;
+}
+
+.box_number p{
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.boo h6 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-right: 50px;
+}
+
+.box_someInfo {
+    width: 40%;
+}
+.box_someInfo p{
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.box_estimation{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
